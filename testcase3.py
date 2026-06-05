@@ -2,7 +2,7 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 import time
 
-driver = webdriver.Firefox()
+driver = webdriver.Edge()
 driver.maximize_window()
 URL = 'http://automationexercise.com'
 driver.get(URL)
