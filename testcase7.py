@@ -4,7 +4,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import time
 
-driver = webdriver.Edge()
+driver = webdriver.Chrome()
 driver.maximize_window()
 
 URL = 'http://automationexercise.com'

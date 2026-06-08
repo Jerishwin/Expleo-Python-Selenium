@@ -5,7 +5,7 @@ from selenium.webdriver.support import expected_conditions as EC
 import time
 from selenium.webdriver import ActionChains as AC
 
-driver = webdriver.Edge()
+driver = webdriver.Chrome()
 driver.maximize_window()
 URL = 'https://letcode.in/draggable'
 driver.get(URL)
